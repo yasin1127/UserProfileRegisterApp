@@ -1,4 +1,4 @@
-package com.example.uprapp
+package com.example.uprapp.views
 
 import android.content.Intent
 import android.graphics.Color
@@ -9,6 +9,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.uprapp.R
 
 class MainActivity : AppCompatActivity() {
     private lateinit var listbtn:Button
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         )
 
         listbtn.setOnClickListener{
-            startActivity(Intent(this,profilelistActivity::class.java))
+            startActivity(Intent(this, profilelistActivity::class.java))
             finish()
         }
 

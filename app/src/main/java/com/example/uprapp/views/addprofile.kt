@@ -1,12 +1,14 @@
-package com.example.uprapp
+package com.example.uprapp.views
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.uprapp.R
 
-class profilelistActivity : AppCompatActivity() {
+class addprofile : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profilelist)
+        setContentView(R.layout.activity_addprofile)
+
     }
 }

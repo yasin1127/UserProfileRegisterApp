@@ -1,10 +1,8 @@
-package com.example.uprapp
+package com.example.uprapp.views
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.uprapp.R
 
 class profilelist : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
