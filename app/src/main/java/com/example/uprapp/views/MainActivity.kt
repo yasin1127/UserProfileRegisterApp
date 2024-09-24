@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         listbtn= findViewById(R.id.btn)
         val D:AnimationDrawable= listbtn.background as AnimationDrawable
 

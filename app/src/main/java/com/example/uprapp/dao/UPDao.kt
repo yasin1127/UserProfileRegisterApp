@@ -2,6 +2,7 @@ package com.example.uprapp.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
+
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
@@ -21,7 +22,8 @@ interface UPDao {
     suspend fun  delete(up: UP)
 
     @Query("SELECT * FROM userProfile")
-    fun getallprofile():LiveData<List<updateprofile>>
+
+    fun getallprofile():LiveData<List<UP>>
 
 
 
